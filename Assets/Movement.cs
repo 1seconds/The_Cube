@@ -40,8 +40,8 @@ public class Movement : MonoBehaviour
 
         xForce = Input.GetAxis("Horizontal") * Force;
         yForce = Input.GetAxis("Vertical") * Force;
+        int i = 0;
         
-
         transform.Translate(new Vector3(xForce, zForce, yForce));
 
 
